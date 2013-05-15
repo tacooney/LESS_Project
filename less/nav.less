@@ -1,0 +1,20 @@
+nav {
+	
+	padding: 30px;
+	background-color: blue;
+	.rounded(60px);
+
+	a {
+		.navButton(@navButtonColor, 10px 0, 20px);
+		padding: @navPadding;
+		color: @linkColor;
+		text-decoration: @navDecoration;
+		margin-right: @navMarginRight;
+		&:hover {
+			color: @hoverColor;
+		}
+		&:visited {
+			color: @visitedColor;
+		}
+	}	
+}

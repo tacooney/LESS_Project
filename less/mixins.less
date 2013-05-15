@@ -1,0 +1,13 @@
+.rounded(@radius: 20px;) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+	
+}
+
+.navButton(@bg:#CC6600, @radius: 10px 0, @pad: 10px) {
+	background-color: @bg;
+	text-align: @align;
+	padding: @pad;
+	.rounded(@radius);
+}
